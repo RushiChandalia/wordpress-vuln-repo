@@ -1,0 +1,17 @@
+plugins:
+  phpcodesniffer:
+    enabled: true
+    exclude_patterns:
+    - "vendor/"
+    - "**/*.js"
+  sonar-php:
+    enabled: true
+    exclude_patterns:
+    - "**/*.js"
+
+  eslint:
+    enabled: true
+## other configuration excluded from example...
+exclude_patterns:
+- "tests/"
+- "spec/"

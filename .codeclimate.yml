@@ -1,3 +1,17 @@
+checks:
+  argument-count:
+    config:
+      threshold: 4
+  complex-logic:
+    config:
+      threshold: 4
+  file-lines:
+    config:
+      threshold: 5000
+  method-complexity:
+    config:
+      threshold: 5
+
 plugins:
   phpcodesniffer:
     enabled: true
